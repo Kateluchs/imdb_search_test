@@ -160,7 +160,7 @@ describe('Search Results General', () => {
     cy.get(selectors.resultItemSelector).contains("Schindler's List").click()
 
     // Checking the url
-    cy.url().should('include', '/title/tt0108052/?ref_=fn_al_tt_4')
+    cy.url().should('include', '/title/tt0108052/?ref_=fn_tt_tt_2')
 
     // Checking that there is a search query inside the card
     cy.contains(capitalize((testSearchData.moviePerson).toLowerCase())).should('be.visible')
@@ -361,6 +361,10 @@ describe('Search Results General', () => {
     cy.get(selectors.resultItemSelector).each(($el) => {
       cy.wrap($el).contains(testSearchData.langSpanResult).should('be.visible')
     })
+
+    // Switching to English
+    cy.get('label[for="nav-language-selector"]').click()
+    cy.get('div[data-menu-id="nav-language-selector"]').contains('English (United States)').click()
 
   })
 })
