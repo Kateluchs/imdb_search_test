@@ -1,4 +1,4 @@
-# Imdb Search Testing: Task for Talon.One
+# Imdb Search Testing: Home Task
 
 ## Requirements
 * Node.js 14.x / Node.js 16.x / Node.js 18.x and above
@@ -6,12 +6,18 @@
 
 ## Getting started
 1. Clone repository https://github.com/Kateluchs/imdb_search_test.git
-> git clone https://github.com/Kateluchs/imdb_search_test.git
+
+```
+git clone https://github.com/Kateluchs/imdb_search_test.git
+```
 2. Run Cypress
-> npx cypress open
+
+```
+npx cypress open
+```
 3. Choose E2E Testing
 4. Press "Start E2E Testing in Chrome"
-4. Run tests by clicking on files one by one in the "E2E specs" block
+5. Run tests by clicking on files one by one in the "E2E specs" block
 
 ## Approach
 Testing is based on the assumption that we have a test database that no one can make changes to without notifying the QA team.
