@@ -1,0 +1,22 @@
+{
+  "name": "search_imd",
+  "version": "1.0.0",
+  "description": "IMDb_tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kateluchs/imdb_search_test.git"
+  },
+  "author": "K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kateluchs/imdb_search_test/issues"
+  },
+  "homepage": "https://github.com/Kateluchs/imdb_search_test#readme",
+  "devDependencies": {
+    "cypress": "^12.0.1"
+  }
+}
