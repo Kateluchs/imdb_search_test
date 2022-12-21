@@ -1,5 +1,4 @@
-# Imdb Search Testing: Home Task
-
+# Imdb Search Testing
 ## Requirements
 * Node.js 14.x / Node.js 16.x / Node.js 18.x and above
 * Cypress
