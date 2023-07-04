@@ -9,11 +9,17 @@
 ```
 git clone https://github.com/Kateluchs/imdb_search_test.git
 ```
-2. Run Cypress
+2. Install packages
+
+```
+npm install
+```
+
+3. Run Cypress
 
 ```
 npx cypress open
 ```
-3. Choose E2E Testing
-4. Press "Start E2E Testing in Chrome"
-5. Run tests by clicking on files one by one in the "E2E specs" block
+4. Choose E2E Testing
+5. Press "Start E2E Testing in Chrome"
+6. Run tests by clicking on files one by one in the "E2E specs" block
